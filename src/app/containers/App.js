@@ -1,9 +1,9 @@
 import React                from "react";
 import {connect}            from "react-redux";
 import {Link}               from "react-router";
-import { User }             from "../components/User";
-import { Main }             from "../components/Main";
-import { setName }          from "../actions/userActions";
+// import { User }             from "../components/User";
+// import { Main }             from "../components/Main";
+// import { setName }          from "../actions/userActions";
 import styles               from "../../../src/app.css"
 
 
