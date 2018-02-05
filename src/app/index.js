@@ -1,12 +1,10 @@
-import {render} from "react-dom";
-import React from "react";
-import {Provider} from "react-redux";
-import {Router, Route, browserHistory, IndexRoute} from "react-router";
-
-
-import App from "./containers/App";
-import Second from "./containers/second"
-import store from "./store";
+import {render}                                     from "react-dom";
+import React                                        from "react";
+import {Provider}                                   from "react-redux";
+import {Router, Route, browserHistory, IndexRoute}  from "react-router";
+import App                                          from "./containers/App";
+import Second                                       from "./containers/second"
+import store                                        from "./store";
 
 render(
     <Provider store={store}>
